@@ -1,0 +1,25 @@
+h1 {
+    background-color: black;
+    color: white;
+    padding: 0.25em;
+}
+
+span {
+    color: cyan;
+}
+
+h2 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 0.25em;
+}
+
+h3 {
+    background-color: lightblue;
+    color: purple;
+    text-align: right;
+    padding: 0.25em;
+    text-decoration: underline;
+}
