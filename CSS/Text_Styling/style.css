@@ -1,25 +1,35 @@
 h1 {
     background-color: black;
     color: white;
-    padding: 0.25em;
+    font-size: 40px;
+    padding: 0px 0px 0px 15px;
+    margin: 5px;
+    font-family: Balsamiq Sans;
 }
 
 span {
-    color: cyan;
+    color: aqua;
+    font-family: Balsamiq Sans;
 }
 
 h2 {
-    background-color: purple;
+    background-color: rebeccapurple;
     color: white;
     text-align: center;
+    font-family: Balsamiq Sans;
+    font-weight: 300;
     font-style: italic;
-    padding: 0.25em;
+    margin: 5px;
+    padding: 5px;
 }
 
 h3 {
-    background-color: lightblue;
-    color: purple;
+    background-color: #9fc5f8 ;
+    color: #281d57;
     text-align: right;
-    padding: 0.25em;
+    font-family: Balsamiq Sans;
+    font-weight: 500;
+    padding: 5px 15px 5px 5px;
+    margin: 5px;
     text-decoration: underline;
 }
