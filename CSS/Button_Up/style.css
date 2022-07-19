@@ -1,31 +1,32 @@
 .search {
-    border-color: #32c79b;
+    border-color: #4cb3b4;
     border-radius: 50px;
     background-color: white;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: 700;
     width: 150px;
-    color: #32c79b;
+    color: #4cb3b4;
     padding: 5px;
-    margin: 5px;
+    margin: 40px 5px 5px 50px;
 }
 
 .plus {
-    background-color: #32c79b;
+    background-color: #00d1b2;
     border-radius: 50%;
     font-size: 25px;
     height: 40px;
     width: 40px;
-    margin: 5px;
+    margin: 5px 5px 5px 50px;
     color: white;
     border-color: white;
 }
 
 .account {
-    background-color: #007bff;
-    font-size: 15px;
+    background-color: #2b78e4;
+    font-size: 20px;
     height: 40px;
     width: 200px;
     color: white;
-    margin: 5px;
+    margin: 5px 5px 5px 50px;
     box-shadow: 5px 5px 0px black;
 }
