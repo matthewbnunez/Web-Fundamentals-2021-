@@ -1,8 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 h1 {
     text-align: center;
     font-size: 60px;
     color: #474961;
-    margin: 0px;
+    margin: 10px;
     font-family: Arimo;
 }
 
@@ -11,6 +15,7 @@ p {
     font-size: 14px;
     color: #777788;
     font-family: Arimo;
+    margin: 10px;
 }
 
 img.octocat {
@@ -25,21 +30,20 @@ img.octocat {
 
 .container_top {
     background-color: coral;
-    justify-content: space-evenly;
-    display: flex;
     margin: 0px 20px 20px 20px;
 }
 
 .container_middle {
     background-color: aquamarine;
-    justify-content: space-evenly;
-    display: flex;
     margin: 20px;
 }
 
 .container_bottom {
     background-color: goldenrod;
+    margin: 20px 20px 0px 20px;
+}
+
+.displayflex {
     justify-content: space-evenly;
     display: flex;
-    margin: 20px 20px 0px 20px;
 }
