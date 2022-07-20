@@ -1,25 +1,24 @@
 h1 {
     text-align: center;
-    font-size: 80px;
+    font-size: 60px;
     color: #474961;
-    margin: 20px;
+    margin: 0px;
     font-family: Arimo;
 }
 
 p {
     text-align: center;
-    font-size: 24px;
+    font-size: 14px;
     color: #777788;
     font-family: Arimo;
 }
 
 img.octocat {
-    height: 300px;
-    margin: 30px;
+    height: 200px;
+    margin: 10px;
 }
 .container {
-    height: 1000px;
-    width: 1200px;
+    width: 1000px;
     display: flex-start;
     margin: 0px auto;
 }
@@ -28,19 +27,19 @@ img.octocat {
     background-color: coral;
     justify-content: space-evenly;
     display: flex;
-    margin: 30px;
+    margin: 0px 20px 20px 20px;
 }
 
 .container_middle {
     background-color: aquamarine;
     justify-content: space-evenly;
     display: flex;
-    margin: 30px;
+    margin: 20px;
 }
 
 .container_bottom {
     background-color: goldenrod;
     justify-content: space-evenly;
     display: flex;
-    margin: 30px;
+    margin: 20px 20px 0px 20px;
 }
