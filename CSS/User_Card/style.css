@@ -1,0 +1,74 @@
+*{
+    font-family: Balsamiq Sans;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 55px 0px 0px 20px;
+}
+
+h3 {
+    margin: auto 10px;
+}
+
+.gear h5 {
+    color: #125a98;
+}
+
+
+.card {
+    height: 300px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    flex: 1;
+}
+
+.card-bottom {
+    background-color: white;
+    flex: 2;
+    border-right: 3px solid #cdcdcd;
+    border-left: 3px solid #cdcdcd;
+    border-bottom: 3px solid #cdcdcd;
+}
+
+.profile {
+    background-color: transparent;
+    height: 100px;
+    position: absolute;
+    left: 510px;
+    top: 100px;
+}
+
+
+.location-icon {
+    height: 15px;
+}
+
+.location {
+    margin: auto 20px;
+    display: flex;
+}
+
+.info {
+    margin: 10px 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gear {
+    margin-top: 10px;
+    display: flex;
+}
+
+.gear-icon {
+    height: 15px;
+    margin: auto 10px auto 20px;
+}
