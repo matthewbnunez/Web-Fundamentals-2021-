@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: #474961;
+    margin: 20px;
+    font-family: Arimo;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+    color: #777788;
+    font-family: Arimo;
+}
+
+img.octocat {
+    height: 300px;
+    margin: 30px;
+}
+.container {
+    height: 1000px;
+    width: 1200px;
+    display: flex-start;
+    margin: 0px auto;
+}
+
+.container_top {
+    background-color: coral;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 30px;
+}
+
+.container_middle {
+    background-color: aquamarine;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 30px;
+}
+
+.container_bottom {
+    background-color: goldenrod;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 30px;
+}
