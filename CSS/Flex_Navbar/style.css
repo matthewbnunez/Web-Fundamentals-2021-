@@ -2,6 +2,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+li {
+    margin: auto 20px auto 0px;
+}
+
+a {
+    color: #c7c7c7;
+    text-decoration: none;
+}
+
 .nav {
     background-color: #333333;
     height: 60px;
@@ -19,20 +28,10 @@ body {
     color: white;
 }
 
-ul {
+.nav-links {
     color: transparent;
     display: flex;
     justify-content: flex-end;
-    margin-left: auto;
-}
-
-li {
-    margin: auto 20px auto 0px;
-}
-
-a {
-    color: #c7c7c7;
-    text-decoration: none;
 }
 
 .btn {
