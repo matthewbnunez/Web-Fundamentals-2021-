@@ -1,0 +1,95 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #00d1b2;
+    border-radius: 50%;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    margin: 5px 5px 5px 50px;
+    color: white;
+    border-color: white;
+}
+
+.row {
+    height: 100px;
+    display: flex;
+    color: white;
+}
+
+.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: #659da1;
+}
+
+a {
+    color: #c7c7c7;
+    text-decoration: none;
+}
+
+.nav {
+    background-color: #333333;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: white;
+    font-weight: 400;
+    margin: auto 20px;
+}
+
+.active:hover {
+    color: white;
+}
+
+.nav-links {
+    color: transparent;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    background-color: #17a2b8;
+    border: 3px solid black;
+    height: 30px;
+    width: 90px;
+    font-size: 16px;
+    box-shadow: 3px 3px 0px black;
+    color: white;
+}
+
+.card {
+    height: 300px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 25px 0px 0px;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 90px;;
+}
+
+.card-bottom {
+    background-color: white;
+    height: 210px;
+    border-right: 3px solid #cdcdcd;
+    border-left: 3px solid #cdcdcd;
+    border-bottom: 3px solid #cdcdcd;
+}
