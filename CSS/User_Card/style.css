@@ -7,7 +7,7 @@
 
 .profile-info {
     margin-top: 40px;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
 }
 
 h3 {
@@ -56,7 +56,7 @@ h5 {
 .container {
     display: flex;
     flex-direction: row;
-    margin: 5px auto;
+    margin: 10px auto;
 }
 
 .info {

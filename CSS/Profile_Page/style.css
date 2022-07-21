@@ -6,6 +6,7 @@
     padding: 0;
 }
 
+
 li {
     margin: auto 20px auto 0px;
 }
@@ -25,7 +26,7 @@ a {
 .nav-title {
     color: white;
     font-weight: 400;
-    margin: auto 20px;
+    margin: auto 0px auto 200px;
 }
 
 .active:hover {
@@ -35,7 +36,7 @@ a {
 .nav-links {
     color: transparent;
     display: flex;
-    justify-content: flex-end;
+    margin: auto 200px auto 0px;
 }
 
 .btn {
@@ -48,16 +49,11 @@ a {
     color: white;
 }
 
-*{
-    font-family: Balsamiq Sans;
-    font-weight: normal;
-    margin: 0;
-    padding: 0;
-}
+
 
 .profile-info {
     margin-top: 40px;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
 }
 
 h3 {
@@ -68,7 +64,7 @@ h5 {
     margin: auto 0px;
 }
 
-.container h5 {
+.container h5 a {
     color: #125a98;
     margin: auto 10px;
 }
@@ -76,10 +72,10 @@ h5 {
 
 .card {
     height: 300px;
-    width: 700px;
+    width: 800px;
     display: flex;
     flex-direction: column;
-    margin: 50px auto;
+    margin: 50px 200px;
 }
 
 .card-header {
@@ -98,15 +94,15 @@ h5 {
 .profile {
     height: 100px;
     position: absolute;
-    left: 510px;
-    top: 80px;
+    left: 225px;
+    top: 140px;
     border-radius: 50%;
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    margin: 5px auto;
+    margin: 10px auto;
 }
 
 .info {
