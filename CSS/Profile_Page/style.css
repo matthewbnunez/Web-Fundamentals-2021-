@@ -133,12 +133,6 @@ button {
     margin-left: 10px;
 }
 
-.text2 {
-    color: white;
-    margin-top: 20px;
-    margin-left: 10px;
-}
-
 .container h3 {
     margin: auto 10px;
 }
@@ -194,7 +188,7 @@ button {
 
 .card2 .card-header {
     background-color: #333333;
-    height: 60px;
+    height: 80px;
     display: flex;
 }
 
@@ -261,11 +255,13 @@ button {
 
 .card2 img, .card3 img {
     height: 50px;
+    margin-right: 5px;
     border-radius: 50%;
 }
 
 
 .cr-align {
+    margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
