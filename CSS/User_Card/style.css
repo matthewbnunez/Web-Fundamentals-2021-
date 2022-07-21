@@ -5,16 +5,22 @@
     padding: 0;
 }
 
-h1 {
-    margin: 55px 0px 0px 20px;
+.profile-info {
+    margin-top: 40px;
+    padding: 20px;
 }
 
 h3 {
     margin: auto 10px;
 }
 
-.gear h5 {
+h5 {
+    margin: auto 0px;
+}
+
+.container h5 {
     color: #125a98;
+    margin: auto 10px;
 }
 
 
@@ -28,12 +34,12 @@ h3 {
 
 .card-header {
     background-color: #17a2b8;
-    flex: 1;
+    flex: 2;
 }
 
 .card-bottom {
     background-color: white;
-    flex: 2;
+    flex: 5;
     border-right: 3px solid #cdcdcd;
     border-left: 3px solid #cdcdcd;
     border-bottom: 3px solid #cdcdcd;
@@ -44,31 +50,24 @@ h3 {
     height: 100px;
     position: absolute;
     left: 510px;
-    top: 100px;
+    top: 80px;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 5px auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
 
 .location-icon {
     height: 15px;
 }
 
-.location {
-    margin: auto 20px;
-    display: flex;
-}
-
-.info {
-    margin: 10px 0px 0px 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.gear {
-    margin-top: 10px;
-    display: flex;
-}
-
 .gear-icon {
     height: 15px;
-    margin: auto 10px auto 20px;
 }
