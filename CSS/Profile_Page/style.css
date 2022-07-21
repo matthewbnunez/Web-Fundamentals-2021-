@@ -43,13 +43,11 @@ a {
 .nav-container {
     display: flex;
     justify-content: flex-start;
-    flex: 9;
 }
 
 .nav-container2 {
     display: flex;
     justify-content: flex-start;
-    flex: 1;
 }
 
 .nav-title {
