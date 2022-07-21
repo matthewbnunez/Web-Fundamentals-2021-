@@ -29,13 +29,17 @@ a {
     background-color: #333333;
     height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .nav-title {
     color: white;
     font-weight: 400;
-    margin: auto 0px auto 200px;
+    margin: auto 20px auto 200px;
+}
+
+button {
+    margin: auto 0px auto 515px;
 }
 
 .active:hover {
@@ -45,7 +49,7 @@ a {
 .nav-links {
     color: transparent;
     display: flex;
-    margin: auto 200px auto 0px;
+    margin-right: 210px;
 }
 
 .btn {
@@ -58,22 +62,68 @@ a {
     color: white;
 }
 
-
-
 .profile-info {
     margin-top: 40px;
     padding: 20px 20px 0px 20px;
 }
 
-h3 {
+.num-requests {
+    background-color: #cccccc;
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.num-connections {
+    background-color: #cccccc;
+    height: 25px;
+    width: 60px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.card1 .card-header h3 {
+    color: white;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.card2 .card-header h3 {
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.card3 .card-header h3 {
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.container h3 {
     margin: auto 10px;
 }
 
-h5 {
+.container h5 {
     margin: auto 0px;
 }
 
-.container h5 a {
+.container2 h5 {
+    margin: 5px 0px;
+    color: #acacac;
+}
+.container2 h4 {
+    margin: 10px 0px;
+}
+
+.container  a {
     color: #125a98;
     margin: auto 10px;
     text-decoration: underline;
@@ -88,8 +138,24 @@ h5 {
     margin: 25px 25px 0px 0px;
 }
 
+.card1 {
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 25px 0px 0px;
+}
+
 .card2 {
-    height: 300px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 25px 0px 0px;
+}
+
+.card3 {
+    height: 800px;
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -98,12 +164,63 @@ h5 {
 
 .card-header {
     background-color: #17a2b8;
-    flex: 2;
+    height: 90px;;
+}
+
+.card1 .card-header {
+    background-color: #333333;
+    height: 50px;
+}
+
+.card2 .card-header {
+    background-color: #333333;
+    height: 60px;
+    display: flex;
+}
+
+.card3 .card-header {
+    background-color: #333333;
+    height: 60px;
+    display: flex;
+}
+
+.card-footer {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    padding: 15px 0px 10px;
+    border-right: 3px solid #cdcdcd;
+    border-left: 3px solid #cdcdcd;
+    border-bottom: 3px solid #cdcdcd;
 }
 
 .card-bottom {
     background-color: white;
-    flex: 5;
+    height: 210px;
+    border-right: 3px solid #cdcdcd;
+    border-left: 3px solid #cdcdcd;
+    border-bottom: 3px solid #cdcdcd;
+}
+
+.card1 .card-bottom {
+    background-color: white;
+    height: 400px;
+    border-right: 3px solid #cdcdcd;
+    border-left: 3px solid #cdcdcd;
+    border-bottom: 3px solid #cdcdcd;
+}
+
+.card2 .card-bottom {
+    background-color: white;
+    height: 150px;
+    border-right: 3px solid #cdcdcd;
+    border-left: 3px solid #cdcdcd;
+    border-bottom: 3px solid #cdcdcd;
+}
+
+.card3 .card-bottom {
+    background-color: white;
+    height: 300px;
     border-right: 3px solid #cdcdcd;
     border-left: 3px solid #cdcdcd;
     border-bottom: 3px solid #cdcdcd;
@@ -122,6 +239,11 @@ h5 {
     flex-direction: row;
     margin: 10px auto;
 }
+.container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
 
 .info {
     display: flex;
@@ -134,4 +256,47 @@ h5 {
 
 .gear-icon {
     height: 15px;
+}
+
+.card2 img, .card3 img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card2 .card-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card3 .card-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cr-align {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yc-align {
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+}
+
+.card-footer a {
+    margin: auto 20px;
+    color: #125a98;
+    text-decoration: underline;
+}
+
+.cr-align h2, .yc-align h2 {
+    margin-left: 10px;
 }
