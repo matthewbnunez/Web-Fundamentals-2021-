@@ -14,6 +14,13 @@
 .sub-format {
     display: flex;
     flex-direction: column;
+    flex: 3;
+}
+
+.sub-format2 {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
 }
 
 li {
@@ -132,7 +139,6 @@ button {
 
 .card {
     height: 300px;
-    width: 800px;
     display: flex;
     flex-direction: column;
     margin: 25px 25px 0px 0px;
@@ -140,7 +146,6 @@ button {
 
 .card1 {
     height: 800px;
-    width: 800px;
     display: flex;
     flex-direction: column;
     margin: 25px 25px 0px 0px;
@@ -148,7 +153,6 @@ button {
 
 .card2 {
     height: 200px;
-    width: 400px;
     display: flex;
     flex-direction: column;
     margin: 25px 25px 0px 0px;
@@ -156,7 +160,6 @@ button {
 
 .card3 {
     height: 800px;
-    width: 400px;
     display: flex;
     flex-direction: column;
     margin: 25px 25px 0px 0px;
