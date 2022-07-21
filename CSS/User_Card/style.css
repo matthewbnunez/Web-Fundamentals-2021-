@@ -48,9 +48,10 @@ h5 {
 .profile {
     background-color: transparent;
     height: 100px;
-    position: absolute;
-    left: 510px;
-    top: 80px;
+    width: 100px;
+    position: relative;
+    left: 25px;
+    top: 50px;
 }
 
 .container {
