@@ -5,22 +5,35 @@
     margin: 0;
     padding: 0;
 }
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
 
-.format {
+.flex-row {
     display: flex;
     flex-direction: row;
+}
+
+.flex-start {
+    display: flex;
+    flex-direction: flex-start;
+}
+
+.flex-end {
+    display: flex;
+    flex-direction: flex-end;
+}
+
+.format {
     margin-left: 200px;
     margin-right: 200px;
 }
 .sub-format {
-    display: flex;
-    flex-direction: column;
     flex: 3;
 }
 
 .sub-format2 {
-    display: flex;
-    flex-direction: column;
     flex: 2;
 }
 
@@ -36,13 +49,6 @@ a {
 .nav {
     background-color: #333333;
     height: 60px;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.nav-container {
-    display: flex;
-    justify-content: flex-start;
 }
 
 .nav-container2 {
@@ -67,7 +73,6 @@ button {
 
 .nav-links {
     color: transparent;
-    display: flex;
     width: 301px;
 }
 
@@ -159,29 +164,21 @@ button {
 
 .card {
     height: 300px;
-    display: flex;
-    flex-direction: column;
     margin: 25px 25px 0px 0px;
 }
 
 .card1 {
     height: 800px;
-    display: flex;
-    flex-direction: column;
     margin: 25px 25px 0px 0px;
 }
 
 .card2 {
     height: 200px;
-    display: flex;
-    flex-direction: column;
     margin-top: 25px;
 }
 
 .card3 {
     height: 800px;
-    display: flex;
-    flex-direction: column;
     margin-top: 25px;
 }
 
@@ -209,44 +206,37 @@ button {
 
 .card-footer {
     background-color: white;
-    height: 40px;
-    display: flex;
-    padding: 15px 0px 10px;
     border-right: 3px solid #cdcdcd;
     border-left: 3px solid #cdcdcd;
     border-bottom: 3px solid #cdcdcd;
+    height: 40px;
+    padding: 15px 0px 10px;
 }
 
 .card-bottom {
     background-color: white;
-    height: 210px;
     border-right: 3px solid #cdcdcd;
     border-left: 3px solid #cdcdcd;
     border-bottom: 3px solid #cdcdcd;
+    height: 210px;
 }
 
 .card1 .card-bottom {
-    background-color: white;
     height: 400px;
-    border-right: 3px solid #cdcdcd;
-    border-left: 3px solid #cdcdcd;
-    border-bottom: 3px solid #cdcdcd;
 }
 
 .card2 .card-bottom {
-    background-color: white;
     height: 150px;
-    border-right: 3px solid #cdcdcd;
-    border-left: 3px solid #cdcdcd;
-    border-bottom: 3px solid #cdcdcd;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-evenly;
 }
 
 .card3 .card-bottom {
-    background-color: white;
     height: 300px;
-    border-right: 3px solid #cdcdcd;
-    border-left: 3px solid #cdcdcd;
-    border-bottom: 3px solid #cdcdcd;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-evenly;
 }
 
 .profile {
@@ -258,19 +248,10 @@ button {
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
     margin: 10px auto;
 }
 .container2 {
-    display: flex;
-    flex-direction: column;
     margin: 10px;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
 }
 
 .location-icon {
@@ -286,21 +267,6 @@ button {
     border-radius: 50%;
 }
 
-.card2 .card-bottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.card3 .card-bottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
 .cr-align {
     display: flex;
@@ -309,9 +275,7 @@ button {
 }
 
 .yc-align {
-    display: flex;
     align-items: center;
-    justify-content: flex;
 }
 
 .card-footer a {
