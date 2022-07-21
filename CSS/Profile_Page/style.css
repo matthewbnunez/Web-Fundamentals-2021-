@@ -6,6 +6,15 @@
     padding: 0;
 }
 
+.format {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px
+}
+.sub-format {
+    display: flex;
+    flex-direction: column;
+}
 
 li {
     margin: auto 20px auto 0px;
@@ -75,7 +84,7 @@ h5 {
     width: 800px;
     display: flex;
     flex-direction: column;
-    margin: 50px 200px;
+    margin: 25px 25px 0px 0px;
 }
 
 .card-header {
@@ -95,7 +104,7 @@ h5 {
     height: 100px;
     position: absolute;
     left: 225px;
-    top: 140px;
+    top: 120px;
     border-radius: 50%;
 }
 
