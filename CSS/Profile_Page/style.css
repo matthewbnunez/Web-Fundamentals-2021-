@@ -219,17 +219,18 @@ button {
     border-left: 3px solid #cdcdcd;
     border-bottom: 3px solid #cdcdcd;
     height: 210px;
+    padding: 10px;
 }
 
 .card1 .card-bottom {
     height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-evenly;
 }
 
 .card2 .card-bottom {
     height: 150px;
-    padding-left: 10px;
-    padding-right: 10px;
-    justify-content: space-evenly;
 }
 
 .card3 .card-bottom {
@@ -254,11 +255,7 @@ button {
     margin: 10px;
 }
 
-.location-icon {
-    height: 15px;
-}
-
-.gear-icon {
+.icon {
     height: 15px;
 }
 
