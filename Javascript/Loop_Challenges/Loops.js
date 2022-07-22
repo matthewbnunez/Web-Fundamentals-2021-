@@ -26,7 +26,7 @@ console.log(sum);
 
 //Factorial
 var product = 1;
-for(i = 2; i <= 12; i++) {
+for(i = 1; i <= 12; i++) {
     product *= i;
 }
 console.log(product);
