@@ -25,15 +25,15 @@
     flex-direction: flex-end;
 }
 
-.format {
+.row {
     margin-left: 200px;
     margin-right: 200px;
 }
-.sub-format {
+.column {
     flex: 3;
 }
 
-.sub-format2 {
+.column2 {
     flex: 2;
 }
 
@@ -260,14 +260,14 @@ button {
 }
 
 
-.cr-align {
+.connection-img-align {
     margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.yc-align {
+.connection-align {
     align-items: center;
 }
 
@@ -277,6 +277,6 @@ button {
     text-decoration: underline;
 }
 
-.cr-align h2, .yc-align h2 {
+.connection-img-align h2, .connection-align h2 {
     margin-left: 10px;
 }
