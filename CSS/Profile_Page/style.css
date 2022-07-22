@@ -155,7 +155,6 @@ button {
     text-decoration: underline;
 }
 
-
 .card {
     height: 300px;
     margin: 25px 25px 0px 0px;
@@ -245,6 +244,7 @@ button {
 .container {
     margin: 10px auto;
 }
+
 .container2 {
     margin: 10px;
 }
