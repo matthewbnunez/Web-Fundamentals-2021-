@@ -29,6 +29,7 @@
     margin-left: 200px;
     margin-right: 200px;
 }
+
 .column {
     flex: 3;
 }
@@ -37,6 +38,8 @@
     flex: 2;
 }
 
+
+/* Navigation bar */
 li {
     margin: auto 20px auto 0px;
 }
@@ -85,6 +88,8 @@ button {
     box-shadow: 3px 3px 0px black;
     color: white;
 }
+
+/* Cards */
 
 .profile-info {
     margin-top: 40px;
