@@ -92,7 +92,7 @@ button {
 /* Cards */
 
 .profile-info {
-    margin-top: 40px;
+    margin-top: 25px;
     padding: 20px 20px 0px 20px;
 }
 
@@ -216,7 +216,7 @@ button {
     border-right: 3px solid #cdcdcd;
     border-left: 3px solid #cdcdcd;
     border-bottom: 3px solid #cdcdcd;
-    height: 210px;
+    height: 180px;
     padding: 10px;
 }
 
