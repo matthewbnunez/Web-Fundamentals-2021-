@@ -1,0 +1,278 @@
+*{
+    font-family: Balsamiq Sans;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.column {
+    flex: 3;
+}
+
+.column2 {
+    flex: 2;
+}
+
+
+/* Navigation bar */
+li {
+    margin: auto 20px auto 0px;
+}
+
+a {
+    color: #c7c7c7;
+    text-decoration: none;
+}
+
+.nav {
+    background-color: #333333;
+    height: 60px;
+}
+
+.nav-container2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.nav-title {
+    color: white;
+    font-weight: 400;
+    margin: auto 20px auto 200px;
+}
+
+button {
+    margin: auto 200px auto 100px;
+}
+
+.active:hover {
+    color: white;
+}
+
+.nav-links {
+    color: transparent;
+    width: 301px;
+}
+
+.btn {
+    background-color: #17a2b8;
+    border: 3px solid black;
+    height: 30px;
+    width: 90px;
+    font-size: 16px;
+    box-shadow: 3px 3px 0px black;
+    color: white;
+}
+
+/* Cards */
+
+.profile-info {
+    margin-top: 25px;
+    padding: 20px 20px 0px 20px;
+}
+
+.num-requests {
+    background-color: #cccccc;
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.num-requests h4 {
+    margin-top: 1px;
+}
+
+.num-connections {
+    background-color: #cccccc;
+    height: 25px;
+    width: 60px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.num-connections h4 {
+    margin-top: 1px;
+}
+
+.card1 .card-header h3 {
+    color: white;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.text {
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.container h3 {
+    margin: auto 10px;
+}
+
+.container h5 {
+    margin: auto 0px;
+}
+
+.container2 h5 {
+    margin: 5px 0px;
+    color: #acacac;
+}
+.container2 h4 {
+    margin: 10px 0px;
+}
+
+.container  a {
+    color: #125a98;
+    margin: auto 10px;
+    text-decoration: underline;
+}
+
+.card {
+    height: 300px;
+    margin: 25px 25px 0px 0px;
+}
+
+.card1 {
+    height: 800px;
+    margin: 25px 25px 0px 0px;
+}
+
+.card2 {
+    height: 200px;
+    margin-top: 25px;
+}
+
+.card3 {
+    height: 800px;
+    margin-top: 25px;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 90px;;
+}
+
+.card1 .card-header {
+    background-color: #333333;
+    height: 50px;
+}
+
+.card2 .card-header {
+    background-color: #333333;
+    height: 80px;
+    display: flex;
+}
+
+.card3 .card-header {
+    background-color: #333333;
+    height: 60px;
+    display: flex;
+}
+
+.card-footer {
+    background-color: white;
+    border-right: 3px solid #cdcdcd;
+    border-left: 3px solid #cdcdcd;
+    border-bottom: 3px solid #cdcdcd;
+    height: 40px;
+    padding: 20px 0px 10px;
+}
+
+.card-bottom {
+    background-color: white;
+    border-right: 3px solid #cdcdcd;
+    border-left: 3px solid #cdcdcd;
+    border-bottom: 3px solid #cdcdcd;
+    height: 180px;
+    padding: 10px;
+}
+
+.card1 .card-bottom {
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-evenly;
+}
+
+.card2 .card-bottom {
+    height: 150px;
+}
+
+.card3 .card-bottom {
+    height: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-evenly;
+}
+
+.profile {
+    height: 100px;
+    position: absolute;
+    left: 225px;
+    top: 120px;
+    border-radius: 50%;
+}
+
+.container {
+    margin: 10px auto;
+}
+
+.container2 {
+    margin: 10px;
+}
+
+.icon {
+    height: 15px;
+}
+
+.card2 img, .card3 img {
+    height: 50px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.connection-img-align {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.connection-align {
+    align-items: center;
+}
+
+.card-footer a {
+    margin: auto 20px;
+    color: #125a98;
+}
+
+.connection-img-align h2, .connection-align h2 {
+    margin-left: 10px;
+}
