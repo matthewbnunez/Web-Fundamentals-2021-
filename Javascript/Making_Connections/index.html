@@ -31,7 +31,7 @@
                 </div>
                 <div class="card-bottom">
                     <div class="profile-info">
-                        <h1>Jane Doe</h1>
+                        <h1 id ="name">Jane Doe</h1>
                         <div class="container flex-row">
                             <img class="icon" src="icons/map-marker.png" alt="icon" />
                             <h3>Seattle</h3>
@@ -42,7 +42,7 @@
                         </div>
                         <div class="container flex-row">
                             <img class="icon" src="icons/gear.png" alt="icon" />
-                            <h5><a href="">edit profile</a></h5>
+                            <h5 onclick="changeName()" class="edit">edit profile</h5>
                         </div>
                     </div>
                 </div>
@@ -66,29 +66,29 @@
             <div class="card2 flex-column">
                 <div class="card-header">
                     <div class="num-requests">
-                        <h4>2</h4>
+                        <h4 id="conCount">2</h4>
                     </div>
                     <h3 class="text">Connection Request</h3>
                 </div>
                 <div class="card-bottom flex-column">
-                    <div class="connection-img-align">
+                    <div class="connection-img-align"  id="con1">
                         <div class="connection-img-align">
                             <img src="images/jane-m.jpg" alt="connection" />
                             <h2>Todd E</h2>
                         </div>
                         <div>
-                            <img src="icons/accept-circle.png" alt="connection" />
-                            <img src="icons/close-circle.png" alt="connection" />
+                            <img src="icons/accept-circle.png" alt="connection" onclick="remove(1)" />
+                            <img src="icons/close-circle.png" alt="connection" onclick="remove(2)" />
                         </div>
                     </div>
-                    <div class="connection-img-align">
+                    <div class="connection-img-align"  id="con2">
                         <div class="connection-img-align">
                             <img src="images/phil-s.jpg" alt="connection" />
                             <h2> Phil K</h2>
                         </div>
                         <div>
-                            <img src="icons/accept-circle.png" alt="connection" />
-                            <img src="icons/close-circle.png" alt="connection" />
+                            <img src="icons/accept-circle.png" alt="connection" onclick="remove(3)" />
+                            <img src="icons/close-circle.png" alt="connection" onclick="remove(4)" />
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
             <div class="card3 flex-column">
                 <div class="card-header">
                     <div class="num-connections">
-                        <h4>500+</h4>
+                        <h4 id="yourConnections">418</h4>
                     </div>
                     <h3 class="text">Your Connections</h3>
                 </div>
@@ -126,5 +126,6 @@
             </div>
         </div>  
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

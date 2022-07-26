@@ -268,9 +268,10 @@ button {
     align-items: center;
 }
 
-.card-footer a {
-    margin: auto 20px;
+.edit  {
+    padding: 0 10px;
     color: #125a98;
+    text-decoration: underline;
 }
 
 .connection-img-align h2, .connection-align h2 {
