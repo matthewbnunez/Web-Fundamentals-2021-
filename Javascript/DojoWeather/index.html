@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="d-flex align-items-center">
+        <h1 class="text-white">DojoWeather</h1>
+        <div class="d-flex justify-content-space-evenly">
+            <h3 class="text-white" onclick="alert('Loading weather report...')">Burbank</h3>
+            <h3 class="text-white" onclick="alert('Loading weather report...')">Chicago</h3>
+            <h3 class="text-white" onclick="alert('Loading weather report...')">Dallas</h3>
+        </div>
+    </nav>
+
+    <!-- Title -->
+    <div class="d-flex title align-items-center">
+        <h2>San Jose</h2>
+        <p class="showTemp">show temperature in</p>
+        <select name="Temperature"  onchange="changeTemp()">
+            <option selected="selected" value="celsius">°C</option>
+            <option value="fahrenheit">°F</option>
+        </select>
+    </div>
+
+    <!-- Main Content -->
+    <main class="d-flex main justify-content-between">
+        <div class="d-flex weatherCard col align-items-center justify-content-evenly">
+            <h3>Today</h3>
+            <img src="assets/some_rain.png">
+            <p>some rain</p>
+            <div class="temp d-flex justify-content-between">
+                <h3 class="red" id="temp1">24°</h3>
+                <h3 class="blue" id="temp2">18°</h3>
+            </div>
+        </div>
+        <div class="d-flex weatherCard col align-items-center justify-content-evenly">
+            <h3>Tomorrow</h3>
+            <img src="assets/some_sun.png">
+            <p>some sun</p>
+            <div class="temp d-flex justify-content-between">
+                <h3 class="red" id="temp3">27°</h3>
+                <h3 class="blue" id="temp4">19°</h3>
+            </div>
+        </div>
+        <div class="d-flex weatherCard col align-items-center justify-content-evenly">
+            <h3>Friday</h3>
+            <img src="assets/some_clouds.png">
+            <p>some clouds</p>
+            <div class="temp d-flex justify-content-between">
+                <h3 class="red" id="temp5">21°</h3>
+                <h3 class="blue" id="temp6">16°</h3>
+            </div>
+        </div>
+        <div class="d-flex weatherCard col align-items-center justify-content-evenly">
+            <h3>Saturday</h3>
+            <img src="assets/some_sun.png">
+            <p>some sun</p>
+            <div class="temp d-flex justify-content-between">
+                <h3 class="red" id="temp7">26°</h3>
+                <h3 class="blue" id="temp8">21°</h3>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Cookies -->
+    <div class="d-flex cookies align-items-center">
+        <img src="assets/cookie.png">
+        <div class="text">
+            <h3>Stop! Cookie time</h3>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media
+                features and to analyse our traffic. <a href="">Read more...</a></p>
+        </div>
+        <button class="btn" onclick="removeCookie()">I Accept</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

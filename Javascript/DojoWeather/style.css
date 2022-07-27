@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Sans-serif;
+}
+
+
+/* Generic CSS Classes */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-content-center {
+    justify-content: space-center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.col {
+    flex-direction: column;
+}
+
+
+/* Colors */
+
+.easy-basy-greens {
+    background-color: rgb(65, 209, 178);
+}
+
+.easy-basy-lightgreens {
+    background-color: rgb(170, 232, 216);
+}
+
+.text-white {
+    color: white;
+}
+
+
+/* Navigation bar */
+nav {
+    background-color: #9fc5f8;
+    padding: 15px 10%;
+}
+
+h1, h2 {
+    width: 90%;
+    font-size: 32px;
+}
+
+nav h3{
+    margin-right: 50px;
+}
+
+.showTemp {
+    width: 175px;
+}
+
+/* Title */
+.title {
+    margin: 20px 10%;
+    padding-bottom: 15px;
+    border-bottom: 3px solid black;
+}
+
+
+/* Main Content */
+.main {
+    margin: 25px 10%;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.weatherCard {
+    background-color: #eeeeee;
+    width: 23%;
+    height: 400px;
+}
+
+img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.temp {
+    width: 50%;
+}
+
+.red {
+    color: #cf2a27;
+}
+
+.blue {
+    color: #2b78e4;
+}
+
+main p {
+    font-size: 20px;
+}
+
+/* Cookies */
+.cookies {
+    background-color: #eeeeee;
+    border: 3px solid black;
+    margin: 0px 10%;
+    height: 100px;
+    padding: 25px;
+    position: fixed;
+    bottom: 0;
+}
+
+.btn {
+    background-color: #9fc5f8;
+    border: 3px solid black;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    box-shadow: 3px 3px 0px black;
+}
+
+.cookies img {
+    height: 75px;
+    width: 75px;
+}
+
+.text {
+    padding: 0 40px;
+}
